@@ -18,9 +18,8 @@ email: 'tylerjpriest1228@gmail.com'
 description: "I'm a data science student at ASU, and a Banker at Desert Financial."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tylerpriestley.github.io/tylerpriestley" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: 'jamigibbs'
+instagram_username: 'turtle._.tyler'
 github_username: 'tylerpriestley'
-medium_username: 'blog.jamigibbs.com'
 
 # Build settings
 markdown: kramdown
