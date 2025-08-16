@@ -1,26 +1,26 @@
-# ----------------------------------------
-# Site Settings
-# ----------------------------------------
-title: "Hello. I'm Tyler Priestley."
+# ----------------------------
+# Site settings
+# ----------------------------
+title: "Hi, I'm Tyler Priestley"
 email: "tylerjpriest1228@gmail.com"
-description: "I'm a data science student at ASU and a banker at Desert Financial."
-url: "https://tylerpriestley.github.io"   # Use your GitHub Pages domain here
-baseurl: "/tylerpriestley"                # If this is a project repo (not username.github.io)
+description: "I'm a data science student at ASU, and a banker for Desert Financial."
+baseurl: "" # leave blank unless hosting in a subfolder
+url: "https://tylerpriestley.github.io/tylerpriestley" # replace with your GitHub Pages URL or custom domain
 
+twitter_username: "@zentza"
 github_username: "tylerpriestley"
-instagram_username: "turtle._.tyler"
 
-# ----------------------------------------
-# Build Settings
-# ----------------------------------------
+# ----------------------------
+# Build settings
+# ----------------------------
 markdown: kramdown
-theme: phantom
+# theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate
 
-# ----------------------------------------
-# Pagination Settings
-# ----------------------------------------
+# ----------------------------
+# Pagination
+# ----------------------------
 paginate: 10
 paginate_path: "/page:num/"
 
@@ -36,27 +36,28 @@ pagination:
   sort_reverse: true
   category: 'posts'
   tag: ''
-  locale: ''
-  trail:
+  locale: '' 
+  trail: 
     before: 2
     after: 2
   extension: html
   indexpage: 'index'
 
-# ----------------------------------------
-# Phantom Theme Settings
-# ----------------------------------------
+# ----------------------------
+# Portfolio Settings
+# ----------------------------
 footer_text: '© 2025 Tyler Priestley'
 admin_name: 'Tyler Priestley'
-google_analytics: ""  # Add your tracking ID if using Google Analytics
-enable_contact: true  # Enables contact page (needs contact.md)
+google_analytics: "" # Add your GA4 / UA ID if you want tracking
+enable_contact: true  # enable a contact form
 
-# ----------------------------------------
-# Navigation Menu
-# ----------------------------------------
+# ----------------------------
+# Navigation
+# ----------------------------
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
   - { url: '/projects', text: 'Projects' }
+  - { url: '/blog', text: 'Blog' }
   - { url: '/contact', text: 'Contact' }
